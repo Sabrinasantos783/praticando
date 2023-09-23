@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com HTML</title>
+    <link rel="stylesheet" href="prat.css">
+    <style>
+        .fakeimg{background-color: gray; height: 200px;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#taxas">Taxas</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li style="float:left"><a href="#logo"><b>Logo</b></a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>Venha realizar a viagem dos seus sonhos!</h1>
+
+            <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+    </header>
+
+    <section>
+        <h2>Conheça nossos pacotes</h2>
+        <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </section>
+
+    <div class="figuras">
+        <div>
+        <figure>
+            <div class="fakeimg">
+            <img src="" alt="" style="float: left">
+            <figcaption></figcaption>
+            </div>
+        </figure>
+
+        <figure>
+            <div class="fakeimg">
+            <img src="" alt="" style="float: auto;">
+            <figcaption></figcaption>
+            </div>
+        </figure>
+
+        <figure>
+            <div class="fakeimg">
+            <img src="" alt="" style="float: right;">
+            <figcaption></figcaption>
+            </div>
+        </figure>
+    </div>
+    </div>
+
+    <table id="tabela">
+        <caption>
+            <h3>Taxas de Serviços</h3>
+        </caption>
+        <thead>
+            <tr>
+                <th>
+                    Serviço
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    Reserva de Hotel
+                </td>
+                <td>
+                    R$500,00
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Reserva de Hotel
+                </td>
+                <td>
+                    R$500,00
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Compra de Passagens
+                </td>
+                <td>
+                    R$1.000,00
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Aluguel de Carros
+                </td>
+                <td>
+                    R$300,00
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="formulario">
+        <fieldset>
+            <legend>Contato</legend>
+            <h3>Dados Pessoais</h3>
+
+            <form action="" method="get"> 
+                <label for="nome">Nome:</label><br>
+
+                <input type="text" name="nome"><br>
+                
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email"><br>
+
+                <label for="dataIda">Data de Ida:</label><br>
+                <input type="date" name="dataIda"><br>
+
+                <label for="dataVolta">Data de Volta:</label><br>
+                <input type="date" name="dataVolta"><br>
+
+                <button style="background-color: gray; color: beige; border-radius: 4px;">Salvar</button>
+            </form>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Quais Serviços Deseja Contratar?</legend>
+            <h3>Dados da Viagem</h3>
+            <form action="" method="get">
+
+                <label for="compraPassagens">
+                    <input type="checkbox" name="compraPassagens">Compra de Passagens
+                </label><br>
+
+                <label for="reservaHospedagem">
+                    <input type="checkbox" name="reservaHospedagem">Reserva de Hospedagem
+                </label><br>
+
+                <label for="aluguelVeiculos">
+                    <input type="checkbox" name="aluguelVeiculos">Aluguel de Veículos
+                </label>
+            </form>
+
+            <section>
+                <form action="" method="get">
+                    <h3>Escolha o Prazo</h3>
+                    <select name="prazo" id="escolhaPrazo">
+                        <option value="À Vista">
+                            À Vista
+                        </option>
+
+                        <option value="5x">
+                            5x sem juros
+                        </option>
+
+                        <option value="10x">
+                            10x com juros
+                        </option>
+                    </select>
+                </form>
+            </section>
+
+
+        </fieldset>
+    </section>
+
+    <div class="rodape">
+    <footer>Desenvolvido por Sabrina Clementino</footer>
+    </div>
+
+</body>
+
+</html>
