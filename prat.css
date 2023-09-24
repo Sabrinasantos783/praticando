@@ -21,6 +21,11 @@ header{
     background-color: orange;
 }
 
+.inicio, p{
+    height: 250px;
+    text-align: center;
+}
+
 section, footer{
     margin: 40px;
 }
